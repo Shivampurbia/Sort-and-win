@@ -6,7 +6,17 @@ body{
     background-color: rgb(90, 3, 3);
     padding: 1rem;
     margin-top: 1rem;
-
+    width: fit-content;
+    margin: 1rem;
+    min-height: 14rem;
+    min-width: 4rem;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 10px 10px rgba(17, 17, 17, 0.596);
+}
+.onerow{
+    margin-left: 5.5rem;
+    display: flex;
+    align-items: center;
 }
 .header{
     color: white;
@@ -18,11 +28,14 @@ body{
     margin-bottom: -10px;
 }
 .dragable{
-    padding: 1rem;
+    
     color: white;
     background-color: rgb(7, 51, 247);
     cursor: move;
-    border-radius: .7rem;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: .5rem;
+
 }
 .dragable.dragging{
     opacity: 0.8;
